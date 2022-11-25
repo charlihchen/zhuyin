@@ -28,3 +28,5 @@ with open("4698ch.txt","r", encoding="utf8") as f:
 #TypeError: get_pinyin() got an unexpected keyword argument 'show_tone_marks'
 #这个问题是由于包的问题，新版本的show_tone_marks已经没有了，换成了tone_marks
 #C:\Users\charlihchen.FORTINET-US\Anaconda3\Lib\site-packages\bopomofo\__init__.py
+#pip install bopomofo
+#pip install pypinyin
