@@ -1,4 +1,4 @@
-chinese = dict({
+chinese_zhuyin = dict({
 "叭":"ㄅ␢ㄚˉ"
 ,"芭":"ㄅ␢ㄚˉ"
 ,"疤":"ㄅ␢ㄚˉ"
