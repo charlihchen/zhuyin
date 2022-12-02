@@ -19,7 +19,9 @@ now = datetime.now()
 dt_string = now.strftime("%m/%d/%Y %H:%M:%S")
 #print("date and time =", dt_string)	
 
-from chinese_dict import chinese #import from chinese_dict.py
+from chinese9282_dict import chinese #import from chinese9282_dict.py
+#from unicode_26712_chinese_zhuyin_dict import chinese #import from unicode_26712_chinese_zhuyin_dict.py
+#from chinese_dict import chinese #import from chinese_dict.py
 
 consonant = ["␢","ㄅ","ㄆ","ㄇ","ㄈ","ㄉ","ㄊ","ㄋ","ㄌ","ㄍ","ㄎ","ㄏ","ㄐ","ㄑ","ㄒ","ㄓ","ㄔ","ㄕ","ㄖ","ㄗ","ㄘ","ㄙ"] #聲母
 medial = ["␢","ㄧ","ㄨ","ㄩ"]#介音
@@ -66,7 +68,9 @@ for c in consonant:
                     path2file = path+"\\"+filename_ext
                     #f=open(filename_ext, "a", encoding="utf-8").close()
                     f=open(path2file, "a", encoding="utf-8")
-                    f.write(result+","+dt_string+",AI"+'\n')
+                    f.write(result+","+dt_string+",hanziDB.org<br>"+'\n')
+                    #f.write(result+","+dt_string+",unicode.org<br>"+'\n')
+                    #f.write(result+","+dt_string+",AI<br>"+'\n')
                     f.close()
 
                 else:
