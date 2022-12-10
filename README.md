@@ -10,4 +10,4 @@ Why there is no database for zhuyin along side with chinese character(s)?<br>
 7. unicode_chinese_zhuyin_dict.py</br>
 <br>
 4 dimension(s) zhuyin on web: http://www.indexbox.com/chinese/ZhuyinTable.html</br>
-3 dimension(s) korean on web: http://www.indexbox.com/korean/hangul_table.html</br>
+3 dimension(s) korean on web: http://www.indexbox.com/index/language/korean/hangul_table.html</br>
