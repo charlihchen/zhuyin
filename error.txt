@@ -1,0 +1,73 @@
+MySQL - How to fix the 'Incorrect string value' error:
+https://sebhastian.com/mysql-incorrect-string-value/
+
+ “To breakthrough the limit of 30019 inodes and 400 databases. (Daily hits limit: 50000)(8000MB mysql storage limit)”
+ 
+ 6812 rows inserted. (Query took 0.0959 seconds.)
+INSERT INTO `mseet_35765077_8`.`TABLE 2` (`COL 1`, `COL 2`, `COL 3`, `COL 4`, `COL 5`, `COL 6`, `COL 7`, `COL 8`, `COL 9`, `COL 10`, `COL 11`) VALUES ('', '一', '␢ㄧ␢ˉ', '2024-02-16 23:14:00', 'ai@indexbox.com', 1, 'chinese', 'zhuyin', '中文', '注音', '教育部本土語言成果參考字表'), ('', '丁', 'ㄉㄧㄥˉ', '2024-02-16 23:14:00', 'ai@indexbox.com', 1, 'chinese', 'zhuyin', '中文', '注音', '教育部本土語言成果參考字表'), ('', '七', 'ㄑㄧ␢ˉ', '2024-02-16 23:14:00', 'ai@indexbox.com', 1, 'chinese', 'zhuyin', '中文', '注音', '教育部本土語言成果參考字表'), ('', '万', '␢ㄨㄢˋ', '2024-02-16 23:14:00', 'ai@indexbox.com', 1, 'chinese', 'zhuyin', '中文', '注音', '教育部本土語言成果參考字表'), ('', '丈', 'ㄓ␢ㄤˋ', '2024-02-16 23:14:00', 'ai@indexbox.com', 1, 'chinese', 'zhuyin', '中文', '注音', '教育部本土語言成果參考字表'), ('', '三', 'ㄙ␢ㄢˉ', '2024-02-16 23:14:00', 'ai@indexbox.com', 1, 'chinese', 'zhuyin', '中文', '注音', '教育部本土語言成果參考字表'), ('', '上', 'ㄕ␢ㄤˋ', '2024-02-16 23:14:00', 'ai@indexbox.com', 1, 'chinese', 'zhuyin', '中文', '注音', '教育部本土語言成果參考字表'), ('', '下', 'ㄒㄧㄚˋ', '2024-02-16 23:14:00', 'ai@[...]
+[ Edit ]
+ Warning: #1366 Incorrect string value: '\xF0\xA0\x81\xA3' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6621
+ Warning: #1366 Incorrect string value: '\xF0\xA0\x83\x9B' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6622
+ Warning: #1366 Incorrect string value: '\xF0\xA0\x8A\x8E' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6623
+ Warning: #1366 Incorrect string value: '\xF0\xA0\x8E\xB7' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6624
+ Warning: #1366 Incorrect string value: '\xF0\xA0\x95\x86' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6625
+ Warning: #1366 Incorrect string value: '\xF0\xA0\x95\x86' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6626
+ Warning: #1366 Incorrect string value: '\xF0\xA0\x95\x87' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6627
+ Warning: #1366 Incorrect string value: '\xF0\xA0\x96\x84' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6628
+ Warning: #1366 Incorrect string value: '\xF0\xA0\x96\xAB' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6629
+ Warning: #1366 Incorrect string value: '\xF0\xA0\x97\xBB' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6630
+ Warning: #1366 Incorrect string value: '\xF0\xA0\x98\x86' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6631
+ Warning: #1366 Incorrect string value: '\xF0\xA0\x9C\x96' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6632
+ Warning: #1366 Incorrect string value: '\xF0\xA0\x9C\xB1' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6633
+ Warning: #1366 Incorrect string value: '\xF0\xA0\x9E\xA9' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6634
+ Warning: #1366 Incorrect string value: '\xF0\xA0\x9E\xA9' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6635
+ Warning: #1366 Incorrect string value: '\xF0\xA0\x9E\xA9' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6636
+ Warning: #1366 Incorrect string value: '\xF0\xA0\x9E\xAD' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6637
+ Warning: #1366 Incorrect string value: '\xF0\xA0\x9E\xAD' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6638
+ Warning: #1366 Incorrect string value: '\xF0\xA0\xA0\x83' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6639
+ Warning: #1366 Incorrect string value: '\xF0\xA0\xA0\x9D' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6640
+ Warning: #1366 Incorrect string value: '\xF0\xA0\xA0\xAB' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6641
+ Warning: #1366 Incorrect string value: '\xF0\xA0\xA0\xAB' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6642
+ Warning: #1366 Incorrect string value: '\xF0\xA0\xA2\x95' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6643
+ Warning: #1366 Incorrect string value: '\xF0\xA0\xA2\x95' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6644
+ Warning: #1366 Incorrect string value: '\xF0\xA0\xAF\x97' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6645
+ Warning: #1366 Incorrect string value: '\xF0\xA0\xB2\xBF' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6646
+ Warning: #1366 Incorrect string value: '\xF0\xA0\xB2\xBF' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6647
+ Warning: #1366 Incorrect string value: '\xF0\xA0\xB2\xBF' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6648
+ Warning: #1366 Incorrect string value: '\xF0\xA0\xB2\xBF' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6649
+ Warning: #1366 Incorrect string value: '\xF0\xA0\xB4\xAD' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6650
+ Warning: #1366 Incorrect string value: '\xF0\xA0\xBA\x85' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6651
+ Warning: #1366 Incorrect string value: '\xF0\xA0\xBA\xA3' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6652
+ Warning: #1366 Incorrect string value: '\xF0\xA0\xBB\x9E' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6653
+ Warning: #1366 Incorrect string value: '\xF0\xA1\x9F\x93' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6654
+ Warning: #1366 Incorrect string value: '\xF0\xA1\xA2\x83' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6655
+ Warning: #1366 Incorrect string value: '\xF0\xA1\xA8\x9E' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6656
+ Warning: #1366 Incorrect string value: '\xF0\xA1\xB3\x9E' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6657
+ Warning: #1366 Incorrect string value: '\xF0\xA2\x84\xA7' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6658
+ Warning: #1366 Incorrect string value: '\xF0\xA2\x8E\x99' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6659
+ Warning: #1366 Incorrect string value: '\xF0\xA2\x93\x9C' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6660
+ Warning: #1366 Incorrect string value: '\xF0\xA2\x9B\x9F' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6661
+ Warning: #1366 Incorrect string value: '\xF0\xA2\x9C\xB3' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6662
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xA9\xAD' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6663
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xA9\xAD' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6664
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xAA\xB1' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6665
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xAA\xB1' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6666
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xAB\xA6' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6667
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xAB\xA6' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6668
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xAB\xA6' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6669
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xAB\xA6' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6670
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xAB\xAB' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6671
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xAC\x97' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6672
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xAC\xB3' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6673
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xAF\xAD' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6674
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xAF\xBE' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6675
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xB1\xA4' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6676
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xB2\xB4' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6677
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xB2\xB8' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6678
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xB3\x86' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6679
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xB3\x86' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6680
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xB3\x86' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6681
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xB3\xAA' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6682
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xB6\x80' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6683
+ Warning: #1366 Incorrect string value: '\xF0\xA2\xB6\x80' for column `mseet_35765077_8`.`TABLE 2`.`COL 2` at row 6684
+ 
