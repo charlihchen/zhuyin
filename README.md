@@ -12,5 +12,5 @@ Why there is no database for zhuyin alongside with chinese character(s)?<br>
 4 dimension(s) zhuyin on web: https://www.indexbox.com/index/language/chinese/zhuyin/ZhuyinTable.html</br>
 3 dimension(s) korean on web: https://www.indexbox.com/index/language/korean/hangul_table.html</br>
 <br>
-https://indexbox.com/2024/02/18/zhuyin/
-https://indexbox.com/index/language/chinese/zhuyin/the.php?A=%E3%84%85%E2%90%A2%E2%90%A2%CB%89
+https://indexbox.com/2024/02/18/zhuyin/<br>
+https://indexbox.com/index/language/chinese/zhuyin/the.php?A=%E3%84%85%E2%90%A2%E2%90%A2%CB%89</br>
