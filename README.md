@@ -14,3 +14,4 @@ Why there is no database for zhuyin alongside with chinese character(s)?<br>
 <br>
 https://indexbox.com/2024/02/18/zhuyin/<br>
 https://indexbox.com/index/language/chinese/zhuyin/the.php?A=%E3%84%85%E2%90%A2%E2%90%A2%CB%89</br>
+![image](https://github.com/user-attachments/assets/2c703a93-b7f5-4719-9c68-b6961b5cb37f)
