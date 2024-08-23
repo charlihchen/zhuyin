@@ -1,4 +1,4 @@
-# zhuyin
+# zhuyin aka 注音 aka. bopomofo
 Why there is no database for zhuyin alongside with chinese character(s)?<br>
 為什麼沒有"漢字":"注音"的資料庫？</br>
 1. Big5_13069_chinese_zhuyin_dict.py<br>
