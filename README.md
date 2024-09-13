@@ -19,3 +19,5 @@ https://indexbox.com/index/language/chinese/zhuyin/the.php?A=%E3%84%85%E2%90%A2%
 
 The following diagram is using the Chinese word "Hung" (弘) as an example for explaining how it is using the zhuyin(s).
 ![cldia1](https://github.com/user-attachments/assets/d9014da6-5d81-416e-8c01-c99fc5cd2954)
+
+<a href="https://www.buymeacoffee.com/charlih"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=charlih&button_colour=FFDD00&font_colour=000000&font_family=Arial&outline_colour=000000&coffee_colour=ffffff" /></a>
